@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\gpujpeg_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_dct_cpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_huffman_cpu_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_huffman_cpu_encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gpujpeg_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libgpujpeg\gpujpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_common_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_decoder_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_encoder_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgpujpeg\gpujpeg_writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\gpujpeg_dct_gpu.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gpujpeg_huffman_gpu_decoder.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gpujpeg_huffman_gpu_encoder.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\gpujpeg_preprocessor.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\gpujpeg.dir\src\$(Configuration)\gpujpeg_generated_gpujpeg_dct_gpu.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\gpujpeg.dir\src\$(Configuration)\gpujpeg_generated_gpujpeg_huffman_gpu_decoder.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\gpujpeg.dir\src\$(Configuration)\gpujpeg_generated_gpujpeg_huffman_gpu_encoder.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+    <None Include="CMakeFiles\gpujpeg.dir\src\$(Configuration)\gpujpeg_generated_gpujpeg_preprocessor.cu.obj">
+      <Filter>Object Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EC943320-6C0A-3F6B-8634-4B66399D7709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{3A2E2C0C-869D-3D46-923C-0A2DAB84199C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{75D37C33-1575-3915-A0C6-A1D4E75B342C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
